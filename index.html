@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Product Landing Page</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Slab|Kelly+Slab|Quicksand|Raleway&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<section id="comp-logo">
+				<img id="header-img" src="https://drive.google.com/open?id=10SQPSKI9acTyZCayf7WqN1OGoiW0HJD_" alt="logo"/>
+				<h2 id="header-name">Eve's Bakery</h2>
+			</section>
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#history">History</a></li>
+					<li><a class="nav-link" href="#pricing">Pricing</a></li>
+					<li><a class="nav-link"href="#delivery">Delivery</a></li>
+				</ul>
+			</nav>	
+		</header>
+
+		<div class="container">
+
+			<section id="history">
+				<h2>Welcome, Bread Lovers!!!</h2>
+				<p>Eve's Bakery was founded in the year 1999. It all began in a small shop in Ikeja, Lagos state, Nigeria, with 4 bakers and a manager. Now, there are at least 300 shops in Africa, over a 1000 franchises worldwide and over 10,000 employees.</p><br>
+				<p>The video shows the art of bread making and the amount of effort that goes into every loaf of bread produced.</p>
+				<br>
+				<iframe id="video" src="https://www.youtube.com/embed/EGbNI26PPYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br>
+				<p>The section below showcases the different types of breads sold.</p>
+			</section>
+
+			<section id="pricing">
+				<h2>Catalogue</h2>
+				<p>Each catalogue gives information about the cost, size and other details.</p>
+				<section class="catalogue-block">
+					<div class="catalogue">
+						<div class="name">Butter Bread</div>
+						<p>A lover of cream/cheese?</p>
+						<ul>
+							<li>Just the bread for you</li>
+							<li>Starting price of £30</li>
+							<li>Free ice cream</li>
+							<li>500g - 1kg</li>
+						</ul>
+					</div>
+					
+					<div class="catalogue">
+						<div class="name">Fruit Bread</div>
+						<p>A fruit lover?</p>
+						<ul>
+							<li>There is yours</li>
+							<li>Starting price of £40</li>
+							<li>Free smoothie</li>
+							<li>700g - 1kg</li>
+						</ul>
+					</div>
+					
+					<div class="catalogue">
+						<div class="name">Tea Cake Bread</div>
+						<p>A lover of coffee/tea?</p>
+						<ul>
+							<li>Perfect!</li>
+							<li>Starting price of £50</li>
+							<li>Free cup of coffee/tea</li>
+							<li>500g - 1kg</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+
+			<section id="delivery">
+				<h2>Make Orders</h2>
+				<p>Please be informed that orders are taken between 08:00 - 15:00, any order outside this time will not be considered. Delivery fee is dependent on the location where it is to be delivered.</p>
+				<br>
+				<p>To order any bread from the Catalogue above, fill in the information below.</p>
+				<br>
+				<form id="form" action=" https://www.freecodecamp.com/email-submit">
+					<input 
+						id="email" 
+						type="email" 
+						name="email" 
+						required="true"
+						placeholder="Enter your email address"
+					/>
+					<input 
+						id="submit"
+						type="submit"
+						value="submit" 
+						name="submit-input" 
+						class="submit-btn" 
+					/>
+				</form>
+			</section>
+		</div>
+
+		<footer>
+			<span>Copyright 2020, Eve's Bakery</span>
+		</footer>
+
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>
